@@ -46,12 +46,6 @@ The stack can be conceptually divided into five layers:
 *   **Core Graphs:** **Event Graph**, **Topology Graph**.
 *   **Purpose:** Captures the dynamic, temporal, and sequential behavior of the user and the system. It answers the question: *How did the user get here, and what is the sequence of their actions?*
 *   **Role:** The **Event Graph** models the user's clickstream and journey. The **Topology Graph** can model the system's structure or, in a travel context, the physical connectivity that constrains choices.
-
-### 5. Intent & Causal Layer (Motivation)
-*   **Core Graphs:** **Intent Graph**, **Causal Graph**.
-*   **Purpose:** Models the *why* behind the user's actions and the *effect* of the system's actions. It answers the question: *Why is the user doing this, and what will happen if we recommend X?*
-*   **Role:** The **Intent Graph** translates user actions into underlying goals. The **Causal Graph** allows the system to perform counterfactual reasoning to select the recommendation that is predicted to have the highest positive impact on a desired outcome (e.g., conversion, retention).
-
 ***
 
 ## Traversal and Subgraph Extraction

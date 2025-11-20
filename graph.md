@@ -127,13 +127,6 @@ graph TD
     style Layer 2 fill:#ffc,stroke:#333,stroke-width:2px
     style Layer 1 fill:#fcc,stroke:#333,stroke-width:2px
 
-    %% Traversal Flow
-    I -- Intent-Driven Traversal --> G
-    G -- Concept-to-Entity Mapping --> K
-    K -- Factual Enrichment --> P
-    P -- Operational Data --> E
-    E -- Behavioral Context --> R
-    C -- Causal Evaluation --> R
 ```
 
 **Summary:** The **Schema Layer** (Domain, Semantic, Taxonomy, Hierarchical) provides the formal structure. The **Instance Layer** (ER, Property) holds the raw data. The **Semantic Layer** (Knowledge, Concept) enriches the data with context. The **Interaction Layer** (Event, Topology) captures dynamic behavior. Finally, the **Intent & Causal Layer** (Intent, Causal) drives the final, explainable, and optimized **Recommendation Decision (R)**. The entire stack is unified by **Graph Neural Networks** which learn fused embeddings from extracted, multi-layered subgraphs.

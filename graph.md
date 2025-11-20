@@ -58,7 +58,6 @@ Semantic traversal in the Ontology Graph Stack is a multi-hop process that often
 2.  **Concept-to-Entity Traversal:** From the concepts, traverse to the **Knowledge Graph** and **Property Graph** to find specific entities (e.g., **Product: "Smartwatch X"** or **Product: "Drone Y"**) that are linked to these concepts via attributes.
 3.  **Refinement Traversal:** Use the **Hierarchical/Taxonomy Graph** to generalize or specialize the product category (e.g., if the user views "Smartwatch X," traverse up to "Wearable Tech" to find related items).
 4.  **Behavioral Traversal:** Use the **Event Graph** to check recent user behavior (e.g., "Did the user recently view a competing product?").
-5.  **Causal Evaluation:** Use the **Causal Graph** to evaluate the potential outcome of recommending "Smartwatch X" versus "Drone Y" on the final purchase probability.
 
 ### Extracting Meaningful Subgraphs for Recommendation
 
